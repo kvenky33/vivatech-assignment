@@ -17,11 +17,20 @@
 .task-card {
   background-color: black;
   color: white;
+  margin-bottom: 10px;
   padding: 10px;
 }
-/* .task-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
+
+@media screen and (max-width: 1000px) {
+  .add-task {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 50%;
+  }
+}

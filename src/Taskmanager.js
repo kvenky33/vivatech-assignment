@@ -151,6 +151,7 @@ const Taskmanager = () => {
               ) : (
                 <p>{task}</p>
               )}
+              <br />
               <button
                 onClick={() => deleteTask(index, tasklist1, setTasklist1)}
               >
@@ -163,6 +164,7 @@ const Taskmanager = () => {
                   >
                     Save
                   </button>
+
                   <button onClick={cancelEdit}>Cancel</button>
                 </>
               ) : (
