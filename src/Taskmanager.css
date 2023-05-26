@@ -1,0 +1,27 @@
+.task-manager {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.add-task {
+  display: flex;
+  gap: 100px;
+}
+.task-list {
+  display: flex;
+
+  gap: 200px;
+}
+.task-card {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+/* .task-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
